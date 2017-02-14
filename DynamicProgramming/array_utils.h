@@ -10,10 +10,10 @@ namespace JL{
     }
 
     template <class T>
-    inline void print_array2d(T a, int n, int m){
-        for(int i=0;i<n;++i){
-            for(int j=0; j<m; ++j){
-                std::cout<<a[i][j]<<' ';
+    inline void print_array2d(T A, int m, int n){
+        for(int i=0; i< m; ++i){
+            for(int j=0; j<n; ++j){
+                std::cout<< A[i*n+j]<<" ";
             }
             std::cout<<'\n';
         }
