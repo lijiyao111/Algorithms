@@ -1,5 +1,5 @@
 // http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DynamicProgramming
-
+#include <stdio.h>
 #include <stdlib.h>
 #include <cstring>
 #include <cmath>
