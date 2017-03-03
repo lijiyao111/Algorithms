@@ -63,13 +63,14 @@ int main()
     // Create a graph given in the above diagram
     Graph g(6);
     g.addEdge(5, 2);
+    g.addEdge(2, 0);
     g.addEdge(5, 0);
     g.addEdge(4, 0);
     g.addEdge(4, 1);
     g.addEdge(2, 3);
     g.addEdge(3, 1);
  
-    cout << "Following is Depth First Traversal (starting from vertex 2) \n";
+    cout << "Following is Depth First Traversal (starting from vertex 5) \n";
     g.DFS(5);
  
     return 0;
